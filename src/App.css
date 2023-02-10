@@ -64,13 +64,24 @@ header{
 .container form{
 display: flex;
 flex-direction: column;
+
+}
+
+.main-content {
+  display: flax;
+  flex-direction: column;
 }
 
 .main-content article {
   max-width: 100%;
   width: 100%;
   padding: 1rem;
-  box-shadow: 10px 0px 21px #898989;
+  box-shadow: 5px 0px 7px #898989;
   border-radius: 20px;
   margin-bottom: 1rem;
 }
+
+.conteiner form label{
+font-weight: 900;
+}
+
